@@ -4,7 +4,7 @@ on: push
 
 jobs:
   test_project:
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
     - name: Django unit tests run
